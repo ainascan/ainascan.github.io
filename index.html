@@ -4,8 +4,10 @@
         <meta charset="UTF-8">
         <title>Ainascan</title>
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="icon" href="images/ainascan_64x64.png" type="image/png">
+        <link rel="icon" href="images/ainascan_transparent_green_64x64.png" type="image/png">
         <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="styles/sections.css">
+        <link rel="stylesheet" href="styles/blog.css">
     </head>
     <body>
         <nav>
@@ -15,7 +17,10 @@
                     AINASCAN
                 </a>
                 <div class="nav__right">
-                    <a href="#blogs">BLOG</a>
+                    <div class="nav__links">
+                        <a href="#blogs">BLOG</a>
+                        <a href="#contact">CONTACT</a>
+                    </div>
                     <div class="nav__icons">
                         <a href="https://ainascan.slack.com" target="_blank" rel="noopener noreferrer">
                             <img class="slack-logo" src="images/slack.png" alt="slack" />
@@ -29,7 +34,7 @@
         </nav>
         <header>
             <div class="title-image">
-                <img src="images/ainascan_512x512.png" alt="logo" loading="eager" />
+                <img src="images/ainascan_website_512x512.png" alt="logo" loading="eager" />
             </div>
             
             <h1 class="title">AINA ⠕ SCAN</h1>
@@ -39,52 +44,134 @@
             </h2>
         </header>
         <main>
-            <section class="section-one">
-                <div class="section-one__content">
-                    <h3>
-                        AINASCAN is a tool for farmers to gain insight into their coffee crops.
-                        Understand the health of the plants, predict yield numbers, plan for
-                        treatments, and more. 
-        
-                    </h3>
-                </div>
-            </section>
-            <section class="section-two">
-                <div class="section-two__content">
-                    <div>
-                        <h3>
-                            Anayltical
-                        </h3>
-                        <p>Information is highly informative and comprehensive</p>
+            <section class="s1">
+                <div class="s1__content">
+                    <div class="s1__title">
+                        <h2>AINASCAN is made for farmers</h2>
+                        <p>
+                            Understand the health of crops, predict yield numbers, plan for
+                            treatments, and more. 
+                        </p>
                     </div>
-                    <div>
-                        <h3>
-                            Intuitive
-                        </h3>
-                        <p>Purpose built for farmers and scientists</p>
-                    </div>
-                    <div>
-                        <h3>
-                            Insightful
-                        </h3>
-                        <p>Gain insight into your crops with powerful predictions</p>
+                    <div class="s1__blocks">
+                        <div class="s1__block imgblock">
+                            <img class="imgblock__img" src="images/coffee-stock-1.jpg" alt="coffee-stock-1" />
+                        </div>
+                        <div class="s1__block imgblock">
+                            <img class="imgblock__img" src="images/example_heatmap.png" alt="heatmap" />
+                        </div>
+                        <div class="s1__block imgblock">
+                            <img class="imgblock__img" src="images/interface-stock-1.png" alt="interface-stock-1" />
+                        </div>
                     </div>
                 </div>
             </section>
-            <section class="section-three">
-                <div class="section-three__content">
-                    <h3 id="blogs">Blog Posts</h3>
+            <section class="s2">
+                <div class="s2__content">
+                    <h2>Why AINASCAN?</h2>
+                    <div class="s2__blocks">
+                        <div>
+                            <h3>
+                                <img src="images/dashboard.png" alt="dashboard" />
+                                Insightful 
+                            </h3>
+                            <p>Information is highly informative and comprehensive. Gain insight into your crops with powerful predictions.</p>
+                        </div>
+                        <div>
+                            <h3>
+                                <img src="images/think.png" alt="think" />
+                                Intuitive
+                            </h3>
+                            <p>Easy to use for farmers and scientists alike. We build our platform with farmers feedback.</p>
+                        </div>
+                        <div>
+                            <h3>
+                                <img src="images/accessible.png" alt="accessible" />
+                                Cheap
+                            </h3>
+                            <p>Our technology is built on open-sourced standards. We share our low cost with you.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s3">
+                <div class="s3__content">
+                    <h2 id="blogs">Blog</h2>
+                    <div class="blogs">
+                        <a class="blog" href="blogs/2024-06-13-introductions">
+                            <h3 class="blog__title">Introducing AINASCAN</h3>
+                            <div class="blog__date">06/13/2024</div>
+                            <div class="blog__description">Learn about the AINASCAN team and the vision for the project</div>
+                            <div class="blog__tags">
+                                <span>Startup</span>
+                                <span>Product Development</span>
+                            </div>
+                        </a>
+                        <a class="blog" href="blogs/2024-06-13-alpha-v0.0.1">
+                            <h3 class="blog__title">Alpha v0.0.1</h3>
+                            <div class="blog__date">06/13/2024</div>
+                            <div class="blog__description">New features! Learn about the architecture behind this release</div>
+                            <div class="blog__tags">
+                                <span>Infrastructure</span>
+                                <span>v0.0.1</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+            </section>
+            <section class="s4">
+                <div class="s4__content">
+                    <h2 id="contact">Support Us</h2>
+                    <div class="s4__blocks">
+                        <a class="s4__block" href="https://github.com/ainascan" target="_blank" rel="noopener noreferrer">
+                            <img src="images/github-mark.png" alt="github" />
+                            <p>Contribute to Github</p>
+                        </a>
+                        <a class="s4__block" href="https://ainascan.slack.com" target="_blank" rel="noopener noreferrer">
+                            <img src="images/slack-color.png" alt="slack" />
+                            <p>Join our Slack</p>
+                        </a>
+                        <a class="s4__block">
+                            <img src="images/linkedin-color.png" alt="linkedin" />
+                            <p>Connect on Linkedin</p>
+                        </a>
+                        <a class="s4__block" href="https://buymeacoffee.com/ainascan" target="_blank" rel="noopener noreferrer">
+                            <img src="images/bmc-logo.png" alt="buymecoffee" />
+                            <p>Buy Me Coffee</p>
+                        </a>
+                        <a class="s4__block" href="mailto:ainascan123@gmail.com">
+                            <img src="images/mail.png" alt="email" />
+                            <p>Email Us</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="s5">
+                <div class="s5__content">
+                    <h2 id="contact">Credits</h2>
                     <div>
-                        <h4>My Sample Blog</h4>
-                        <a href="blogs/2024-06-12-hello">sample blog</a>
+                        <a href="https://www.flaticon.com/free-icons/coffee" title="coffee icons">Coffee icons created by Freepik - Flaticon</a>
+                        <a href="https://www.flaticon.com/free-icons/land" title="land icons">Land icons created by joalfa - Flaticon</a>
+                        <a href="https://www.flaticon.com/free-icons/dashboard" title="dashboard icons">Dashboard icons created by Andrean Prabowo - Flaticon</a>
+                        <a href="https://www.flaticon.com/free-icons/know-how" title="know how icons">Know how icons created by Freepik - Flaticon</a>
+                        <a href="https://www.flaticon.com/free-icons/machine-learning" title="machine learning icons">Machine learning icons created by Shahid-Mehmood - Flaticon</a>
+                        <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>
                     </div>
                 </div>
             </section>
         </main>
         <footer>
-            <div>
-                <a href="https://www.flaticon.com/free-icons/coffee" title="coffee icons">Coffee icons created by Freepik - Flaticon</a>
-                <a href="https://www.flaticon.com/free-icons/land" title="land icons">Land icons created by joalfa - Flaticon</a>
+            <div class="footer__logos">
+                <a href="mailto:ainascan123@gmail.com">
+                    <img src="images/mail.png" alt="email" />
+                </a>
+                <a href="https://ainascan.slack.com" target="_blank" rel="noopener noreferrer">
+                    <img class="slack-logo" src="images/slack.png" alt="slack" />
+                </a>
+                <a href="https://github.com/ainascan" target="_blank" rel="noopener noreferrer">
+                    <img class="github-logo" src="images/github-mark.png" alt="github" />
+                </a>
             </div>
             <div>
                 Greenfield Tech LLC © <script>document.write(new Date().getFullYear())</script>

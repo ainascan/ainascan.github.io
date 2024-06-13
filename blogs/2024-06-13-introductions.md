@@ -1,9 +1,9 @@
 ---
 layout: post
-title: My Blog Post
-tags: machine-learning
+title: Introudcting AINA ⠕ SCAN
+tags: startup
 published: true
-date: 2019-01-20
+date: 2024-06-13
 ---
 
 In a world of coffee forests, the haze engulfs the frenzied gnomes to tinker.

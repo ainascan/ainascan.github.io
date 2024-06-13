@@ -1,0 +1,139 @@
+
+.s1, .s2, .s3, .s4, .s5 {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 400px;
+    padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.s1, .s3, .s5 {
+    color: var(--color-txt-offset);
+    background-color: var(--color-btn-primary);
+}
+
+
+.s1__title {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.s1__blocks {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    height: 100%;
+}
+
+.s1__block {
+    overflow: hidden;
+    background-color: #fff;
+    min-height: 40vh;
+    height: 100%;
+}
+
+.imgblock {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.imgblock__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.imgblock__img:hover {
+    transform: scale(1.1);
+}
+
+.s2__content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.s2__blocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.s2__blocks > div {
+    border: 1px dotted var(--color-btn-primary);
+    padding: 20px;
+    border-radius: 20px;
+    transition: transform 0.2s;
+}
+
+.s2__blocks > div:hover {
+    transform: scale(1.01);
+}
+
+.s2__blocks > div > h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.s3__content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.s4__content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.s4__blocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.s4__block {
+    border: 1px dotted var(--color-btn-primary);
+    padding: 20px;
+    border-radius: 20px;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition: transform 0.2s;
+    text-decoration: none;
+    color: var(--color-txt-primary);
+    font-style: normal;
+}
+
+.s4__block:hover {
+    transform: scale(1.01);
+}
+
+.s4__block > p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.s4__block > img {
+    width: 30vh;
+    height: 30vh;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.s5__content {
+    max-width: 1000px;
+    margin: 0 auto;
+}

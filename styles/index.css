@@ -17,6 +17,7 @@ html {
 
 body {
     color: var(--color-txt-secondary);
+    background-color: var(--color-background);
     padding: 0;
     margin: 0;
 }
@@ -36,6 +37,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--color-background);
+    z-index: 2;
 }
 
 .nav {
@@ -68,7 +71,14 @@ nav {
     gap: 80px;
 }
 
-.nav__right > a {
+.nav__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav__links > a {
     color: var(--color-txt-secondary);
     font-style: normal;
     text-decoration: none;
@@ -137,31 +147,14 @@ main {
     margin-right: 10px;
 }
 
-.section-one, .section-three {
-    box-sizing: border-box;
-    color: var(--color-txt-offset);
-    background-color: var(--color-btn-primary);
-    width: 100%;
-    padding: 20px;
-    height: 400px;
+.footer__logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
-.section-one__content, .section-three__content {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.section-two {
-    box-sizing: border-box;
-    height: 400px;
-    padding: 20px;
-    width: 100%;
-}
-
-.section-two__content {
-    max-width: 1000px;
-    margin: 0 auto;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.footer__logos > a > img {
+    width: 20px;
+    height: 20px;
 }
