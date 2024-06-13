@@ -1,3 +1,167 @@
+
+:root {
+    --color-txt-primary: #4b352a;
+    --color-txt-secondary: #333;
+    --color-txt-offset: #fff;
+    --color-btn-primary: #87543c;
+    --color-logo: #1c8427;
+    --color-background: #fff9f4;
+    --color-footer: #5f5954;
+}
+
 html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: var(--color-txt-secondary);
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: var(--color-txt-primary);
+}
+
+nav {
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-txt-secondary);
+    font-style: normal;
+    text-decoration: none;
+}
+
+.nav__left > img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.nav__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.nav__right > a {
+    color: var(--color-txt-secondary);
+    font-style: normal;
+    text-decoration: none;
+}
+
+.nav__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.github-logo, .slack-logo {
+    width: 20px;
+    height: 20px;
+}
+
+header {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: var(--color-footer);
+    color: var(--color-txt-offset);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.title-image {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-image > img {
+    width: 200px;
+    height: 200px;
+}
+
+.title {
+    text-align: center;
+    font-size: 4em;
+}
+
+.subtitle {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitle > img {
+    margin-right: 10px;
+}
+
+.section-one, .section-three {
+    box-sizing: border-box;
+    color: var(--color-txt-offset);
+    background-color: var(--color-btn-primary);
+    width: 100%;
+    padding: 20px;
+    height: 400px;
+}
+
+.section-one__content, .section-three__content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-two {
+    box-sizing: border-box;
+    height: 400px;
+    padding: 20px;
+    width: 100%;
+}
+
+.section-two__content {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
