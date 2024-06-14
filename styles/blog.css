@@ -8,10 +8,9 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    background-color: #fff;
     background-color: var(--color-background);
     color: var(--color-txt-secondary);
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 20px;
     font-style: normal;
     text-decoration: none;
@@ -42,7 +41,7 @@
     
 }
 
-.blog__tags {
+/* .blog__tags {
     position: absolute;
     right: 20px;
     top: 20px;
@@ -57,4 +56,4 @@
     margin-right: 5px;
     font-variant: all-petite-caps;
     font-size: 0.8em;
-}
+} */
