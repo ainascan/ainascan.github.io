@@ -10,12 +10,6 @@ author: Devin Dennis and Jack Mead
 
 We are a small team of software engineers and coffee enthusiasts who are passionate about agricultural technology and are hoping to make a positive impact on the coffee farming community through our innovative computer vision software and data platform built with and for coffee farmers. We are building up a dataset with the support of the Kona coffee community in order to produce advanced machine vision models which power our easy to use mobile and web applications.
 
-![alteri](/images/2024-06-14-introductions/alteri.jpg "Farm in Boquete, Panama" =33%x) ![team](/images/2024-06-14-introductions/team.jpg "Team in Boquete, Panama" =33%x) ![kmt](/images/2024-06-14-introductions/kmt.jpg "Farm in Kona, Hawai'i" =33%x) 
-
-<!-- <div style="overflow: hidden; display: flex; justify-content: center; align-items: center;">
-    <img src="/images/2024-06-14-introductions/team.jpg" title="Team members in Boquete, Panama". alt="team" style="border-radius: 20px">
-</div> -->
-
 ## Platform
 
 The Ainascan platform is purpose built to help coffee farmers learn more about their crops and give them a chance to optimize their spending on pesticides, herbicides, and fertilizer. Our platform features many layers of artificial intelligence that:
