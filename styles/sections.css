@@ -148,12 +148,6 @@
     max-height: 100px;
 }
 
-.s4__block--venmo {
-    aspect-ratio: 5.28;
-    max-height: 100px !important;
-    max-width: 70% !important;
-}
-
 .s4__support {
     margin-top: 75px;
 }
