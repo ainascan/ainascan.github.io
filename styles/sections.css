@@ -144,10 +144,14 @@
 }
 
 .s4__block > img {
-    width: 30vh;
-    height: 30vh;
     max-width: 100px;
     max-height: 100px;
+}
+
+.s4__block--venmo {
+    aspect-ratio: 5.28;
+    max-height: 100px !important;
+    max-width: 70% !important;
 }
 
 .s4__support {
