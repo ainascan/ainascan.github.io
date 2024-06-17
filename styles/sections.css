@@ -144,10 +144,12 @@
 }
 
 .s4__block > img {
-    width: 30vh;
-    height: 30vh;
     max-width: 100px;
     max-height: 100px;
+}
+
+.s4__support {
+    margin-top: 75px;
 }
 
 .s5__content {
