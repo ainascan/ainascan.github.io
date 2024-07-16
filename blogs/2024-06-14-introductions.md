@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introudcting AINA ⠕ SCAN
+title: Introducing AINA ⠕ SCAN
 tags: startup
 published: true
 date: 2024-06-14
