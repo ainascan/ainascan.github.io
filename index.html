@@ -73,7 +73,7 @@
             <section class="s2">
                 <div class="s2__content">
                     <div class="s2__title">
-                        <h2>Our Data</h2>
+                        <h2>The Data</h2>
                         <p>
                             We have many thousands of annotations of <b>Arabica</b> coffee plants after working with local farmers
                             in Hawaii and Panama. We are currently building contacts in other regions, like Brazil and Vietnam,
@@ -92,18 +92,37 @@
             </section>
             <section class="s3">
                 <div class="s3__content">
-                    <h2 id="blogs">Blogs</h2>
-                    <div class="blogs">
-                        <a class="blog" href="blogs/2024-06-14-introductions">
-                            <h3 class="blog__title">Introducing AINASCAN</h3>
-                            <div class="blog__date">06/14/2024</div>
-                            <div class="blog__description">Learn about the AINASCAN team and the vision for the project</div>
-                        </a>
-                        <a class="blog" href="blogs/2024-07-16-progress">
-                            <h3 class="blog__title">Progress Report</h3>
-                            <div class="blog__date">07/16/2024</div>
-                            <div class="blog__description">Many new developments in the early pre-alpha stages of development</div>
-                        </a>
+                    <div class="s3__title">
+                        <h2>The Technology</h2>
+                    </div>
+                    <div class="s3__blocks">
+                        <div class="s3__block">
+                            <p>
+                                Using <b>instance segmentation</b>, we can classify individual leaves.
+                                <b>Semantic segmentation</b> is used to detect the locations on the leaves that are defective.
+                            </p>
+                            <video class="s3__video" loop muted autoplay src="images/technology.mp4"></video>
+                        </div>
+                        <div class="s3__block">
+                            <p>
+                                After the leaves are segmented, we can then infer the health of a given plant, or, even
+                                the health of an entire field.
+                            </p>
+                            <img class="s3__image" src="images/leaf_to_graph.png" alt="leaf to graph" />
+                        </div>
+                        <div class="s3__block">
+                            <p>
+                                A lot of work was done to collect this data and to build the models. We are currently
+                                developing our geospatial analysis tools and improving the accuracy of our models.
+                                To see a full breakdown of the technical details, visit the notebooks below.
+                            </p>
+                        </div>
+                        <div class="s3__block">
+                            <a class="s3__notebook" href="blogs/instance-segmentation.html">
+                                <h3>Instance Segmentation of Coffee Leaves</h3>
+                                <span>2024-10-09</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>

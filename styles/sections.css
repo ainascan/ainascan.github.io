@@ -35,7 +35,6 @@
 
 .s1__inference__image {
     max-width: 100%;
-    max-height: 50vh;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -43,7 +42,6 @@
 
 .s1__inference__overlay {
     max-width: 100%;
-    max-height: 50vh;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -63,7 +61,7 @@
     grid-template-rows: auto 1fr;
 }
 
-.s2__title {
+.s2__title, .s3__title {
     max-width: 1000px;
     margin: 0 auto;
     width: 100%;
@@ -94,15 +92,58 @@
     transition: transform 0.3s;
 }
 
-.s2__video {
+.s3__video {
     width: 100%;
     height: 100%;
     border-radius: 20px;
 }
 
-.s3__content {
-    max-width: 1000px;
+.s3__blocks {
     margin: 0 auto;
+    height: 100%;
+    max-width: 1000px;
+}
+
+.s3__block {
+    margin-top: 50px;
+}
+
+.s3__image {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.s3__notebook {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    font-style: normal;
+    text-decoration: none;
+    color: #000;
+    background-color: white;
+    position: relative;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: transform 0.2s;
+}
+
+.s3__notebook:hover {
+    transform: scale(1.01);
+}
+
+.s3__notebook > h3 {
+    margin: 0px;
+}
+
+.s3__notebook > span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-variant: all-small-caps;
+    font-size: 14px;
 }
 
 .s4__content {
