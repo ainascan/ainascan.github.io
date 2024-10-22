@@ -149,6 +149,7 @@
 .s4__content {
     max-width: 1000px;
     margin: 0 auto;
+    padding-bottom: 75px;
 }
 
 .s4__blocks {
@@ -190,16 +191,6 @@
 }
 
 .s4__support {
-    margin-top: 75px;
-}
-
-.s5__content {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding-bottom: 150px;
-}
-
-.s5__blocks {
     margin-top: 75px;
 }
 
